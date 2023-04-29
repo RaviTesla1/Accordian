@@ -34,6 +34,8 @@ faqData.forEach((item)=>{
   section.classList.add("faq");
   div.classList.add("faq_header");
   button.classList.add("show_btn");
+  para.classList.add("hidden");
+  
 
   // adding content
   h3.textContent = item.question;
@@ -51,21 +53,11 @@ faqData.forEach((item)=>{
   document.querySelector(".accordian_body").appendChild(section);
 
   // ADD TOGGLE FEATURE OON BUTTON
-  // button.addEventListener("click",()=>{
-  //   para.classList.toggle("hidden");
-  // })
+  button.addEventListener("click",()=>{
+    para.classList.toggle("hidden");
+  })
 
-  let isOpen = true;
-  if(isOpen){
-    para.style.display = "block";
-    isOpen = false;
-  }
-  else{
-    para.style.display = "none";
-    isOpen = true;
-  }
   
-
 })
 
 
