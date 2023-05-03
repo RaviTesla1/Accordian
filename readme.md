@@ -26,6 +26,9 @@ This is a faqs section where user can click on the button and get his / her answ
 - Good UI/UX Design
 - Hosted on Netlify and set up in production
 
+## Demo :
+![](./Image/Project_1.png)
+
 ## 🤔 What i have learnt By working on this project
 1. How to use forEach loop efficiently and loop on the array to get values .
 2. How to use toggle( ) function to add and remove a class .
